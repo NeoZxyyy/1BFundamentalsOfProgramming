@@ -16,5 +16,7 @@ public class Assignment_3 { // Defines where the program will run //
         System.out.println("Age: " + age); // Displays the user's age //
         System.out.println("GWA: " + gwa); // Displays the user's GWA //
 
+        // Testing kung lalabas sa git //
+
     } // Ends the main method
 } // Ends the Main class
