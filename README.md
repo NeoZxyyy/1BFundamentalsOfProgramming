@@ -12,4 +12,4 @@
 
 ### Description
 
-Class codes, activities, assignments, and projects for **[Fundamentals of Programming]**.
+Class codes, activities, assignments, and projects for **[ Fundamentals of Programming ]**.
