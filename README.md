@@ -1,4 +1,4 @@
-# [SUBJECT NAME]
+# [Fundamentals of Programming]
 
 **Subject Code:** [URD_CC102_IT]  
 **Instructor:** [Sir. Leo Gabriel Villanueva]  
