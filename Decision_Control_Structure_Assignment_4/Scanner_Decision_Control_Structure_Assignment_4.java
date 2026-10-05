@@ -8,8 +8,8 @@ public class Scanner_Decision_Control_Structure_Assignment_4 {
         // Variable
         double height;
         int age;
-        boolean citizenVerify;
-        boolean isCitizen;
+        String citizenship;
+        boolean isCitizen = false;
         String recommendee;
 
 
@@ -23,50 +23,39 @@ public class Scanner_Decision_Control_Structure_Assignment_4 {
                 System.out.println("\nAccepted!");
                 break;
 
+
             case "N": System.out.print("\nEnter your height in cm: ");
                 height = scanner.nextDouble();
                 System.out.print("Enter your age: ");
                 age = scanner.nextInt();
-                System.out.println("Enter your citizenship (true/false): ");
-                System.out.println("Enter True if citizen of Endor : False if not");
+                scanner.nextLine();
+                System.out.println("Enter your citizenship (C/F): ");
+                System.out.println("Enter C if citizen of Endor : N if not");
                 System.out.print("Enter your choice: ");
-                citizenVerify = scanner.nextBoolean();
-                if(citizenVerify){
+                citizenship = scanner.nextLine().toUpperCase();
+                if(citizenship.equals("C")){
                     isCitizen = true;
-                } else{
+                } else if(citizenship.equals("N")){
                     isCitizen = false;
+                } else {
+                    System.out.println("Invalid choice.");
+                    break;
                 }
 
                 System.out.println();
                 if (height >= 200 && age >= 21 && age <= 25 && isCitizen){
                     System.out.println("Accepted!");
-                    break;
                 } else {
                     System.out.println("Rejected!");
-                    break;
-                }
 
+                }
+                break;
 
 
             default:
                 System.out.println("Invalid choice. Try again");
                 break;
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
         scanner.close();
