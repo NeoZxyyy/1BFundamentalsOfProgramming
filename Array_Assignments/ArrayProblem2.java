@@ -10,7 +10,7 @@ public class ArrayProblem2 { // Array Utility para ma access ung array class
         // For loop tapos gumamit ng .length para ma print lahat ng nasa array
         //dahil yang .length kinukuha kung gaano kadami karga ng nasa Array
         for(int i = 0; i < temperatures.length; i++){
-            System.out.print(temperatures[i]+" ");
+            System.out.println("Day "+(i+1)+": "+temperatures[i]+" ");
         }
         // papalitan neto kung ano yung nasa Temperature index 2 from 31.8 to 32.0
         temperatures[2] = 32.0;
@@ -19,11 +19,11 @@ public class ArrayProblem2 { // Array Utility para ma access ung array class
         System.out.println();
 
         // title lang ng updated na temperature ( day 3 )
-        System.out.println("\nUpdated 3rd Day");
+        System.out.println("Updated 3rd Day");
 
         // same for loop langf sa kanina
         for(int i = 0; i < temperatures.length; i++){
-            System.out.print(temperatures[i]+" ");
+            System.out.println("Day "+(i+1)+": "+temperatures[i]+" ");
 
 
         }
