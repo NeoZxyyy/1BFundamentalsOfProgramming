@@ -40,7 +40,7 @@ public class QuizGrader {
         System.out.println("=== Quiz Grader ===");
         System.out.println("Correct Answers: " + correctCount +"/"+answerKey.length);
         System.out.println(scorePercentage+ " %");
-        if  (scorePercentage > 70){
+        if  (scorePercentage >= 70){
             System.out.println("Result: Pass!");
         } else System.out.println("Result: Fail!");
 
